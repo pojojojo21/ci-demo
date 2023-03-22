@@ -47,6 +47,8 @@ Once you've gotten the config figured out, push up and see if CI works.
 
 Make yourself a [Github Personal Access token](https://github.com/settings/tokens/new) and save it. This token needs the `write:packages` permission. We'll use this to pull down our NPM package now that it's published.
 
+Personal Access Token: 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
+
 We're in the home stretch now. Edit the file `~/.npmrc` if it exists, and create it if it doesn't already exist. In the file, add the following config, replacing OWNER with your Github username and PAT with your Github personal access token.
 
 ```
